@@ -8,7 +8,7 @@ copyButton.addEventListener("click", () => {
   navigator.clipboard.writeText(textoACopiar)
     .then(() => {
       // Opcional: exibir uma mensagem ao usuário
-      alert("Pix copiado com sucesso! (pix do meu filho Rafael da Silva Camozzato). Por favor verificar o nome antes de tranferir");
+      alert("Pix copiado com sucesso! (pix do meu filho Gabriel da Silva Camozzato). Por favor verificar o nome antes de tranferir");
     })
     .catch((error) => {
       // Opcional: lidar com erros, se necessário
