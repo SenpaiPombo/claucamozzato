@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.fundo{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.fundo3{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+
+.mascara{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(255, 251, 20, 0.199) 15%, rgba(180, 52, 137, 0.863) 50%, rgba(2, 225, 255, 0.288) 85%);
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .rolagemdefotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.box .rolagemdefotos img{
+    width: 180px;
+    border: 5px solid rgb(237, 3, 241);
+    border-radius: 50%;
+    margin: 80px 0 40px 0;
+}
+
+.box .rolagemdefotos h1{
+    font-size: 35px;
+}
+
+.box .rolagemdefotos p{
+    font-size: 25px;
+    width: 60%;
+    margin: 15px 0 15% 0;
+    text-align: center;
+}
+
+.redessociais{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+
+.redessociais .button{
+   
+}
+
+.button p{
+    display: none;
+}
+
+.redessociais img{
+    width: 60px;
+}
+
+.qrcode img{
+    width: 270px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(237, 3, 241);
+}
+
+.qrcode p{
+    text-align: center;
+    font-size: 22px;
+}
