@@ -68,12 +68,9 @@ body{
 .redessociais{
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 6%;
-}
-
-.redessociais .button{
-   
 }
 
 .button p{
@@ -84,14 +81,3 @@ body{
     width: 60px;
 }
 
-.qrcode img{
-    width: 270px;
-    margin-top: 20px;
-    border-radius: 10px;
-    border: 5px solid rgb(237, 3, 241);
-}
-
-.qrcode p{
-    text-align: center;
-    font-size: 22px;
-}
