@@ -99,7 +99,8 @@ body{
     text-align: center;
     position: fixed;
     bottom: 0;
-    padding: 25px;
+    padding: 12px;
+    font-size: 10px;
 }
 
 .rodape a{
